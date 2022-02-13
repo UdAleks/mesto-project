@@ -1,0 +1,14 @@
+.popup__container {
+    width: 470px;
+    margin: calc(((100vh - 395px)/2)) calc(((100vw - 470px)/2));
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: 520px) {
+    .popup__container {
+        width: 282px;
+        margin: calc(((100vh - 530px)/2)) calc(((100vw - 282px)/2));
+    }
+    
+}

@@ -1,0 +1,21 @@
+.profile__title-text {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    align-self: flex-end;
+    color: #fff;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media all and (max-width: 500px) {
+    .profile__title-text {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./images/light-logo.svg" alt="Логотип проекта Mesto.Росcия">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img class="profile__image" src="./images/image_Cousteau.jpg" alt="Фотография владельца профиля">
+                <div class="profile__title">
+                    <h1 class="profile__title-text">Жак-Ив Кусто</h1>
+                    <button class="profile__edit-button" type="button"></button>
+                </div>
+                <p class="profile__subtitle-text">Исследователь океана</p>
+                <button class="profile__add-button" type="button"></button>
+            </section>
+            <section class="elements">
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1088404-unsplash(1).jpg" alt="Карачаевск">
+                    <div class="element__description">
+                        <h2 class="element__title">Карачаевск</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
+                    <div class="element__description">
+                        <h2 class="element__title">Гора Эльбрус</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
+                    <div class="element__description">
+                        <h2 class="element__title">Домбай</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1404681-unsplash(1).jpg" alt="Гора Эльбрус">
+                    <div class="element__description">
+                        <h2 class="element__title">Гора Эльбрус</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1556355-unsplash(1).jpg" alt="Домбай">
+                    <div class="element__description">
+                        <h2 class="element__title">Домбай</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкесская Республика">
+                    <div class="element__description">
+                        <h2 class="element__title">Карачаево-Черкесская Республика</h2>
+                        <button class="element__like-button element__like-button_active" type="button"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">&#169; 2022 Mesto Russia</p>
+        </footer>
+        <section class="popup popup_opened">
+            <div class="popup__container">
+                <button class="popup__close-button" type="button"></button>
+                <form class="popup__profile-form">
+                    <h2 class="popup__title">Редактировать профиль</h2>
+                    <input class="popup__input" type="text" name="profile-title" value="Жак-Ив Кусто" placeholder="Имя" required>
+                    <input class="popup__input" type="text" name="profile-subtitle" value="Исследователь океана"
+                        placeholder="Род занятий" required>
+                    <button class="popup__save-button" type="button">Сохранить</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+.profile {
+    max-width: 68.75vw;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, 43.8476vw) minmax(min-content, max-content);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    padding: 36px 0px 47px;
+    margin: 0px auto;
+}
+
+@media all and (max-width: 975px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+@media all and (max-width: 500px) {
+    .profile {
+        max-width: 100vw;
+        padding: 38px 0px 36px;
+    }
+    
+}

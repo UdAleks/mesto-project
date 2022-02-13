@@ -1,0 +1,18 @@
+.element__like-button {
+    justify-self: end;
+    align-self: center;
+    width: 22px;
+    height: 19px;
+    line-height: 19px;
+    background-image: url(../../../images/button-like.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+.profile__like-button:hover {
+    transition: 0.7s;
+    opacity: 0.6;
+}
