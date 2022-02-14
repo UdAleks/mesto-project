@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 550px) {
     .popup__profile-form {
         width: 282px;
         margin-top: 20px;

@@ -1,14 +1,16 @@
 .popup__container {
     width: 470px;
-    margin: calc(((100vh - 395px)/2)) calc(((100vw - 470px)/2));
+    margin-top: calc(((100vh - 390px)/2));
+    margin-left: calc(((100vw - 420px)/2));
     display: flex;
     flex-direction: column;
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 550px) {
     .popup__container {
         width: 282px;
-        margin: calc(((100vh - 530px)/2)) calc(((100vw - 282px)/2));
+        margin-top: calc(((100vh - 500px)/2));
+        margin-left: calc(((100vw - 282px)/2));
     }
     
 }

@@ -21,7 +21,7 @@
     transition: 0.7s;
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 550px) {
     .popup__save-button {
         width: 238px;
         height: 46px;
